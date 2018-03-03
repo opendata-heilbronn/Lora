@@ -1,6 +1,9 @@
 #ifndef _lmic_config_h_
 #define _lmic_config_h_
 
+// deactivate assert to increase availability
+#define CFG_noassert
+
 // In the original LMIC code, these config values were defined on the
 // gcc commandline. Since Arduino does not allow easily modifying the
 // compiler commandline, use this file instead.
