@@ -1,0 +1,14 @@
+#pragma once
+
+/////////////////////////////////
+// The Things Network
+/////////////////////////////////
+
+// Device Address
+static const u4_t DEVADDR = 0x1234....;
+
+// Network Session Key
+static const PROGMEM u1_t NWKSKEY[16] = { 0x12, 0x34, ... };
+
+// App Session Key
+static const u1_t PROGMEM APPSKEY[16] = { 0x12, 0x34, ... };
