@@ -4,11 +4,13 @@
 // The Things Network
 /////////////////////////////////
 
-// Device Address
+// Activation Method: ABP
+
+// Device Address (MSB)
 static const u4_t DEVADDR = 0x1234....;
 
-// Network Session Key
+// Network Session Key (MSB)
 static const PROGMEM u1_t NWKSKEY[16] = { 0x12, 0x34, ... };
 
-// App Session Key
+// App Session Key (MSB)
 static const u1_t PROGMEM APPSKEY[16] = { 0x12, 0x34, ... };
