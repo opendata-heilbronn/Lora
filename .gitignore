@@ -1,3 +1,6 @@
 .pioenvs
 .piolibdeps
+.vscode
+.travis.yml
+**/lib/readme.txt
 config-priv.h
