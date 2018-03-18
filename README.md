@@ -4,6 +4,8 @@
 Easier to use code for LMIC library for the RFM95 module.
 
 ## LoRa_Feinstaub_SDS011
+A LoRa based particulate matter sensor.  
+Sends the measured data over TTN to luftdaten.info
 ### Hardware
 - Arduino Micro
 - RFM95 LoRa module
