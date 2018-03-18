@@ -1,0 +1,3 @@
+[submodule "ttn2luftdaten_forwarder"]
+	path = ttn2luftdaten_forwarder
+	url = https://github.com/LeoDJ/ttn2luftdaten_forwarder.git
